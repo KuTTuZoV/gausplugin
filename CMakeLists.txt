@@ -4,5 +4,5 @@ find_package(Qt5Core REQUIRED)
 
 add_library(gausprikol SHARED gaus.cpp)
 
-qt5_use_modules(gaus Core)
+qt5_use_modules(gausprikol Core)
 
